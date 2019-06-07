@@ -51,13 +51,7 @@ The visualization tools are put under `plot` folder.
 
 * `plot/real_box`: Plot the bounding box of certified non-uniform bounds.
 
-<img src="http://liuchen1993.cn/assets/Certify_Nonuniform_Bounds/github/figs/1_original.png" width="25%" height="25%">
-<img src="http://liuchen1993.cn/assets/Certify_Nonuniform_Bounds/github/figs/1_nonrobust_map.png" width="25%" height="25%">
-<img src="http://liuchen1993.cn/assets/Certify_Nonuniform_Bounds/github/figs/1_robust_map.png" width="25%" height="25%">
-
-<img src="http://liuchen1993.cn/assets/Certify_Nonuniform_Bounds/github/figs/7_original.png" width="25%" height="25%">
-<img src="http://liuchen1993.cn/assets/Certify_Nonuniform_Bounds/github/figs/7_nonrobust_map.png" width="25%" height="25%">
-<img src="http://liuchen1993.cn/assets/Certify_Nonuniform_Bounds/github/figs/7_robust_map.png" width="25%" height="25%">
+![image](http://liuchen1993.cn/assets/Certify_Nonuniform_Bounds/github/figs/interp.png)
 
 ## Contact
 

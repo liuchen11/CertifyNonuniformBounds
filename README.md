@@ -61,7 +61,7 @@ Please contact [Chen Liu](mailto:chen.liu@epfl.ch) regarding this repository.
 
 ```
 @article{liu2019certifying,
-  title={On Certifying Non-uniform Bound against Adversarial Attacks},
+  title={On Certifying Non-uniform Bounds against Adversarial Attacks},
   author={Liu, Chen and Tomioka, Ryota and Cevher, Volkan},
   journal={Thirty-sixth International Conference on Machine Learning (ICML 2019)},
   year={2019}

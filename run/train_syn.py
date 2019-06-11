@@ -70,9 +70,9 @@ if __name__ == '__main__':
     criterion = criterion.cuda() if use_gpu else criterion
 
     if args.optim.lower() in ['sgd',]:
-        optim = torch.optim.SGD(model.parameters(), lr = args.lr, momentum = 0.9, weight_decay = 1e-4)
+        optimizer = torch.optim.SGD(model.parameters(), lr = args.lr, momentum = 0.9, weight_decay = 1e-4)
     elif args.optim.lower() in ['adam',]:
-        optim = torch.optim.Adam(model.parameters(), lr = args.lr, betas = (0.9, 0.99), weight_decay = 1e-4)
+        optimizer = torch.optim.Adam(model.parameters(), lr = args.lr, betas = (0.9, 0.99), weight_decay = 1e-4)
     else:
         raise ValueError('Unrecognized Optimizer: %s' % args.optim.lower())
 

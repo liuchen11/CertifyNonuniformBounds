@@ -90,9 +90,9 @@ if __name__ == '__main__':
         loss = criterion(logits, label_batch)
         acc = accuracy(logits.data, label_batch)
 
-        optimizer.zero_grad()
+        optim.zero_grad()
         loss.backward()
-        optimizer.step()
+        optim.step()
 
         sys.stdout.write('iter %d: accuracy = %.2f%%\r' % (idx, acc * 100.))
 

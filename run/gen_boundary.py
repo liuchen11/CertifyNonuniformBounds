@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
             neighbor_x = sx_list[x_index + shift_x]
             neighbor_y = sy_list[y_index + shift_y]
-            neighbor = xy_list[shift_x + x_index + (shift_y + y_index) * len(sy_list)]
+            neighbor = xy_list[shift_x + x_index + (shift_y + y_index) * len(sx_list)]
 
             assert np.abs(neighbor_x - neighbor[0]) < 1e-4
             assert np.abs(neighbor_y - neighbor[1]) < 1e-4
